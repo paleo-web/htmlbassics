@@ -1,0 +1,102 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,
+body{
+width:100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.fbcont{
+    width: 50%;
+    height:min-content;
+    /* display: flex; */
+    border:  1px solid wheat;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+.fbcheck{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.form{
+padding: 10px;
+width: 100%;
+height:100vh;
+}
+.blue{
+    color: blue;
+}
+.gray{
+    color: gray;
+}
+.email input{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+margin-top: 10px;
+}
+.email :focus{
+    outline: 1px solid red;
+border: none;
+}
+.password input{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+.password :focus{
+    outline: 1px solid red;
+    border: none;
+}
+
+.log {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    color: gray;
+}
+.log a{
+    color: gray;
+    text-decoration: none
+    
+}
+.log :focus{
+border: 1px solid gray;
+color: gray;
+}
+
+.forgotten {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* padding:5% 10%; */
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid white; */
+}
+.create{
+    /* border: 1px solid blueviolet; */
+    text-align: center;
+}
+.create a{
+text-decoration: none;    
+color: gray;
+font-size: 22px;
+}

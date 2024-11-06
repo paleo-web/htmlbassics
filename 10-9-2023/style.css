@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    border: 2px solid blue;
+}
+.home{
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+
+}
+.contact{
+    border: 2px solid rgb(233, 10, 222);
+    width: 100%;
+    height: 100vh;
+
+}
+.about{
+    border: 2px solid yellowgreen;
+    width: 100%;
+    height: 100vh;
+
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left h1{
+font-size: 60px;
+color: blue;
+}
+
+.left p{
+    font-size: 30px;
+    color: black;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right .input{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    font-size: 20px;
+}
+
+.right input{
+    width: 80%;
+    border-radius:5px ;
+    padding: 15px;
+    margin: 10px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid gray;
+}
+
+.input h3{
+    margin: 10px 0;
+    color: gray;
+}
+
+.input span{
+    margin: 10px 0;
+    /* color:; */
+}
+
+.input span a{
+text-decoration: none;    
+color: blue;
+font-size: medium;
+}
+
+.input .h3{
+    border-top: 2px solid gray;
+    margin: 30px 0;
+    color: gray;
+    width: 80%;
+    text-align: center;
+}
+
+.right p{
+    margin-top: 20px;
+    font-size: 18px;
+}
